@@ -17,7 +17,7 @@ class SoftTriple(nn.Module):
         self.cN = cN
         self.K = K
         self.fc = Parameter(torch.Tensor(dim, cN*K))
-        self.weight = torch.zeros(cN*K, cN*K, dtype=torch.uint8).cuda()
+        self.weight = torch.zeros(cN*K, cN*K, dtype=torch.bool).cuda()
         for i in range(0, cN):
             for j in range(0, K):
                 self.weight[i*K+j, i*K+j+1:(i+1)*K] = 1
