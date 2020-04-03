@@ -27,7 +27,7 @@ python train.py --gpu 0 --dim 64 -C 98 --freeze_BN [folder with train and test f
 
     
 ## Citation
-If you use the package in your research, please cite the paper:
+If you use the package in your research, please cite our paper:
 ```
 @inproceedings{qian2019striple,
   author    = {Qi Qian and
