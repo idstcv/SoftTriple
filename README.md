@@ -1,5 +1,5 @@
 # SoftTriple Loss
-PyTorch Implementation for our ICCV'19 paper: "SoftTriple Loss: Deep Metric Learning Without Triplet Sampling"
+PyTorch Implementation for Our ICCV'19 Paper: "SoftTriple Loss: Deep Metric Learning Without Triplet Sampling"
 
 ## Usage: Train on Cars196
 Here is an example of using this package.
